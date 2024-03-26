@@ -7,6 +7,7 @@ import teemPhoto2 from '../assets/Screenshot_2.png';
 import teemPhoto3 from '../assets/Screenshot_3.png';
 import House from './models/House'
 import { BiChevronsUp } from "react-icons/bi";
+import companyPhoto from '../assets/flowers-8564949_1920.png'
 
 const TeamMember = ({ name, position, photo }) => (
   <div className='team-member'>
@@ -120,7 +121,7 @@ const App = () => {
               Thank you for choosing CartoonCrafters. Let's create something magical together!</p>
           </div>
           <div className='photo_company'>
-            <img src='../assets/flowers-8564949_1920.png' alt='Cartoon Crafters Logo' />
+            <img src={ companyPhoto } alt='Cartoon Crafters Logo' />
           </div>
         </div>
       </div>
